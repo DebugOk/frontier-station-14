@@ -11,7 +11,7 @@ entryRegex = re.compile('^ *[*-]? *(add|remove|tweak|fix): *([^\n\r]+)\r?', re.R
 commentRegex = re.compile('<!--.*?--', re.S)
 
 # environ
-repo = os.environ.get('GITHUB_REPOSITORY') or 'StationWare/StationWare'
+repo = os.environ.get('GITHUB_REPOSITORY') or 'new-frontiers-14/frontier-station-14'
 pr_number = os.environ.get('PR_NUMBER') or 177
 params = {'Authorization': f'Bearer {os.environ.get("GITHUB_TOKEN")}'}
 cl_file_path = 'Resources/Changelog/Changelog.yml'
