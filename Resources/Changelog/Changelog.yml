@@ -319,3 +319,15 @@ Entries:
       message: Fixed fun!
   id: 21
   time: '2023-08-16T22:14:08.0000000+00:00'
+- author: DebugOk
+  changes:
+    - type: Add
+      message: Added fun!
+    - type: Remove
+      message: Removed fun!
+    - type: Tweak
+      message: Changed fun!
+    - type: Fix
+      message: Fixed fun!
+  id: 22
+  time: '2023-08-16T22:16:56.0000000+00:00'
